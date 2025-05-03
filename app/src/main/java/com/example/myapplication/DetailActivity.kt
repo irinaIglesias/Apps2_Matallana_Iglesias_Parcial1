@@ -12,10 +12,6 @@ import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
 
 class DetailActivity : AppCompatActivity() {
-//    - Toma las vistas de el xml.
-//    - Busca los extras que se pasaron del intent de MainActivity
-//    - Ubica los datos en las detailViews.
-
     lateinit var tituloDetail: TextView
     lateinit var autorDetail: TextView
     lateinit var editorialDetail: TextView
